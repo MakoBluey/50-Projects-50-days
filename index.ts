@@ -6,7 +6,7 @@ app.use(async (context, next) => {
   try {
     await context.send({
       root: `${Deno.cwd()}/public`,
-      index: "index.html",
+      index: "src/index.html",
     });
   } catch {
     await next();
