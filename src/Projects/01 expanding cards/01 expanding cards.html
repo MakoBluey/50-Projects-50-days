@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Expanding Cards</title>
+</head>
+<body>
+    <h2>Hover edition</h2>
+    <section class="flex justify-center content-center">
+        <img class="mx-1 w-20 h-96 rounded-3xl  object-cover hover:w-96 transition-all ease-in-out duration-300" src="img/Fionna.png" alt="Fionna">
+        <img class="mx-1 w-20 h-96 rounded-3xl object-cover hover:w-96 transition-all ease-in-out duration-300" src="img/Vex 2.jpg" alt="Vex2">
+        <img class="mx-1 w-20 h-96 rounded-3xl object-cover hover:w-96 transition-all ease-in-out duration-300" src="img/Vex.jpg" alt="Vex1">
+    </section>
+
+    <h2>Click edition</h2>
+    <section class="flex justify-center content-center">
+        <img class="mx-1 w-20 h-96 rounded-3xl object-cover  panel transition-all ease-in-out duration-300" src="img/Vex 2.jpg" alt="Vex2">
+        <img class="mx-1 w-20 h-96 rounded-3xl  object-cover panel transition-all ease-in-out duration-300" src="img/Fionna.png" alt="Fionna">
+        <img class="mx-1 w-20 h-96 rounded-3xl object-cover  panel transition-all ease-in-out duration-300" src="img/Vex.jpg" alt="Vex1">
+    </section>
+
+    <script src="CardEx.js"></script>
+    <style>
+        .active {
+            width: 40rem;
+        }
+    </style>
+</body>
+</html>
